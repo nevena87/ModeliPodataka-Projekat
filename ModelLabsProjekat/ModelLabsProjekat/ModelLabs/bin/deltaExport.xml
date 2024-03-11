@@ -1,0 +1,117 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="10">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="SERIESCOMPENSATOR" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="SER_COM_1" />
+            <Property id="IDOBJ_NAME" value="Series Compensator 1" />
+            <Property id="SERIESCOMPENSATOR_R" value="17.9" />
+            <Property id="SERIESCOMPENSATOR_R0" value="28.2" />
+            <Property id="SERIESCOMPENSATOR_X" value="82.3" />
+            <Property id="SERIESCOMPENSATOR_X0" value="4.11" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="CONNECTIVITYNODE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="CONN_1" />
+            <Property id="IDOBJ_NAME" value="Connectivity Node 1" />
+            <Property id="CONNECTIVITYNODE_DESCRIPTION" value="Connectivity Node Description 1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffe" type="CONNECTIVITYNODE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="CONN_2" />
+            <Property id="IDOBJ_NAME" value="Connectivity Node 2" />
+            <Property id="CONNECTIVITYNODE_DESCRIPTION" value="Connectivity Node Description 2" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="PERLENGTHSEQUENCEIMPEDANCE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PER_1" />
+            <Property id="IDOBJ_NAME" value="Per Length Sequence Impedance 1" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_B0CH" value="111.3" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_BCH" value="52.9" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_G0CH" value="132" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_GCH" value="145.3" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_R" value="52.7" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_R0" value="69.2" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_X" value="170" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_X0" value="89.2" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffe" type="PERLENGTHSEQUENCEIMPEDANCE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PERSEQ_2" />
+            <Property id="IDOBJ_NAME" value="Per Length Sequence Impedance 2" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_B0CH" value="136.4" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_BCH" value="161.5" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_G0CH" value="148" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_GCH" value="133.8" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_R" value="107" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_R0" value="67.43" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_X" value="98.8" />
+            <Property id="PERLENGTHSEQUENCEIMPEDANCE_X0" value="88.8" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="DCLINESEGMENT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DC_SEG_1" />
+            <Property id="IDOBJ_NAME" value="DCLine Segment 1" />
+            <Property id="CONDUCTOR_LENGTH" value="120" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="ACLINESEGMENT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="AC_SEG_1" />
+            <Property id="IDOBJ_NAME" value="ACLine Segment 1" />
+            <Property id="CONDUCTOR_LENGTH" value="123" />
+            <Property id="ACLINESEGMENT_B0CH" value="111" />
+            <Property id="ACLINESEGMENT_BCH" value="200" />
+            <Property id="ACLINESEGMENT_G0CH" value="132" />
+            <Property id="ACLINESEGMENT_GCH" value="154" />
+            <Property id="ACLINESEGMENT_R" value="58" />
+            <Property id="ACLINESEGMENT_R0" value="61" />
+            <Property id="ACLINESEGMENT_X" value="122" />
+            <Property id="ACLINESEGMENT_X0" value="88" />
+            <Property id="ACLINESEGMENT_PERLENGTHIMPEDANCE" value="0x00000006ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="TER_1" />
+            <Property id="IDOBJ_NAME" value="Terminal 1" />
+            <Property id="TERMINAL_CONDUCTINGEQUIPMENT" value="0x00000003ffffffff" />
+            <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000005fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffe" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="TER_2" />
+            <Property id="IDOBJ_NAME" value="Terminal 2" />
+            <Property id="TERMINAL_CONDUCTINGEQUIPMENT" value="0x00000002ffffffff" />
+            <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffd" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="TER_3" />
+            <Property id="IDOBJ_NAME" value="Terminal 3" />
+            <Property id="TERMINAL_CONDUCTINGEQUIPMENT" value="0x00000001ffffffff" />
+            <Property id="TERMINAL_CONNECTIVITYNODE" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

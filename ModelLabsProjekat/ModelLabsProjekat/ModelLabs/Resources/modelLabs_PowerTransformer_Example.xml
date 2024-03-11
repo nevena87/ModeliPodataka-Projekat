@@ -1,0 +1,89 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#" 
+xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+    <!--  Series Compensator  -->
+	<cim:SeriesCompensator rdf:ID="SER_COM_1">
+		<cim:SeriesCompensator.r>17.9</cim:SeriesCompensator.r>
+		<cim:SeriesCompensator.r0>28.2</cim:SeriesCompensator.r0>
+		<cim:SeriesCompensator.x>82.3</cim:SeriesCompensator.x>
+		<cim:SeriesCompensator.x0>4.11</cim:SeriesCompensator.x0>
+		<cim:IdentifiedObject.mRID>SER_COM_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Series Compensator 1</cim:IdentifiedObject.name>
+	</cim:SeriesCompensator>
+	<!--  Connectivity Node  -->
+	<cim:ConnectivityNode rdf:ID="CONN_1">
+		<cim:ConnectivityNode.description>Connectivity Node Description 1</cim:ConnectivityNode.description>
+		<cim:IdentifiedObject.mRID>CONN_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Connectivity Node 1</cim:IdentifiedObject.name>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="CONN_2">
+		<cim:ConnectivityNode.description>Connectivity Node Description 2</cim:ConnectivityNode.description>
+		<cim:IdentifiedObject.mRID>CONN_2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Connectivity Node 2</cim:IdentifiedObject.name>
+	</cim:ConnectivityNode>
+	<!--  Per Length Sequence Impedance  -->
+	<cim:PerLengthSequenceImpedance rdf:ID="PERSEQ_1">
+		<cim:PerLengthSequenceImpedance.b0ch>111.3</cim:PerLengthSequenceImpedance.b0ch> 
+		<cim:PerLengthSequenceImpedance.bch>52.9</cim:PerLengthSequenceImpedance.bch>
+		<cim:PerLengthSequenceImpedance.g0ch>132</cim:PerLengthSequenceImpedance.g0ch>
+		<cim:PerLengthSequenceImpedance.gch>145.3</cim:PerLengthSequenceImpedance.gch>
+		<cim:PerLengthSequenceImpedance.r>52.7</cim:PerLengthSequenceImpedance.r>
+		<cim:PerLengthSequenceImpedance.r0>69.2</cim:PerLengthSequenceImpedance.r0>
+		<cim:PerLengthSequenceImpedance.x>170</cim:PerLengthSequenceImpedance.x>
+		<cim:PerLengthSequenceImpedance.x0>89.2</cim:PerLengthSequenceImpedance.x0>
+		<cim:IdentifiedObject.mRID>PER_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Per Length Sequence Impedance 1</cim:IdentifiedObject.name>
+	</cim:PerLengthSequenceImpedance>
+	<cim:PerLengthSequenceImpedance rdf:ID="PERSEQ_2">
+		<cim:PerLengthSequenceImpedance.b0ch>136.4</cim:PerLengthSequenceImpedance.b0ch>
+		<cim:PerLengthSequenceImpedance.bch>161.5</cim:PerLengthSequenceImpedance.bch>
+		<cim:PerLengthSequenceImpedance.g0ch>148</cim:PerLengthSequenceImpedance.g0ch>
+		<cim:PerLengthSequenceImpedance.gch>133.8</cim:PerLengthSequenceImpedance.gch>
+		<cim:PerLengthSequenceImpedance.r>107</cim:PerLengthSequenceImpedance.r>
+		<cim:PerLengthSequenceImpedance.r0>67.43</cim:PerLengthSequenceImpedance.r0>
+		<cim:PerLengthSequenceImpedance.x>98.8</cim:PerLengthSequenceImpedance.x>
+		<cim:PerLengthSequenceImpedance.x0>88.8</cim:PerLengthSequenceImpedance.x0>
+		<cim:IdentifiedObject.mRID>PERSEQ_2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Per Length Sequence Impedance 2</cim:IdentifiedObject.name>
+	</cim:PerLengthSequenceImpedance>
+	<!--  DCLine Segment  -->
+	<cim:DCLineSegment rdf:ID="DC_SEG_1">
+		<cim:Conductor.length>120</cim:Conductor.length>
+		<cim:IdentifiedObject.mRID>DC_SEG_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>DCLine Segment 1</cim:IdentifiedObject.name>
+	</cim:DCLineSegment>
+	<!--  ACLine Segment  -->
+	<cim:ACLineSegment rdf:ID="AC_SEG_1">
+		<cim:ACLineSegment.b0ch>111</cim:ACLineSegment.b0ch>
+		<cim:ACLineSegment.bch>200</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>132</cim:ACLineSegment.g0ch> 
+		<cim:ACLineSegment.gch>154</cim:ACLineSegment.gch> 
+		<cim:ACLineSegment.PerLengthImpedance rdf:resource="#PERSEQ_1"/>
+		<cim:ACLineSegment.r>58</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r0>61</cim:ACLineSegment.r0> 
+		<cim:ACLineSegment.x>122</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x0>88</cim:ACLineSegment.x0> 
+		<cim:Conductor.length>123</cim:Conductor.length> 
+		<cim:IdentifiedObject.mRID>AC_SEG_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>ACLine Segment 1</cim:IdentifiedObject.name>
+	</cim:ACLineSegment>
+	<!--  Terminal  -->
+	<cim:Terminal rdf:ID="TER_1">
+		<cim:Terminal.ConductingEquipment rdf:resource="#AC_SEG_1"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#CONN_2"/>
+		<cim:IdentifiedObject.mRID>TER_1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Terminal 1</cim:IdentifiedObject.name>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="TER_2">
+		<cim:Terminal.ConductingEquipment rdf:resource="#DC_SEG_1"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#CONN_1"/>
+		<cim:IdentifiedObject.mRID>TER_2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Terminal 2</cim:IdentifiedObject.name>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="TER_3">
+		<cim:Terminal.ConductingEquipment rdf:resource="#SER_COM_1"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#CONN_1"/>
+		<cim:IdentifiedObject.mRID>TER_3</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Terminal 3</cim:IdentifiedObject.name>
+	</cim:Terminal>
+</rdf:RDF>
