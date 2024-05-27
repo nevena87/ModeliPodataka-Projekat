@@ -1,1 +1,3 @@
-# Projekat iz predmeta Modeli podataka u pametnim mrežama
+# Modeli podataka 
+
+Projekat iz predmeta Modeli podataka u pametnim mrežama
